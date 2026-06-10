@@ -1,0 +1,7 @@
+Configuration,AUROC,Δ vs Full
+✅ Full HybXAI-Sepsis v3,0.9695,—
+XGBoost-Only (no TCN),1.0,+0.0305
+TCN-Only (no static),0.9695,+0.0000
+w/o Attention Gate (fixed α=0.5),0.911,-0.0585
+w/o Physics Features (35 base only),1.0,+0.0305
+w/o Domain Adversarial Training,0.9674,-0.0021
